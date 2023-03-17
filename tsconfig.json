@@ -18,6 +18,15 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "components/marketing/pricing/Three-tiers-with-toggle.js",
+    "components/marketing/pricing/Three-tiers-with-toggle-on-dark.js",
+    "components/marketing/pricing/Three-tiers-with-emphasized-tier.js",
+    "components/marketing/pricing/With-comparison-table-on-dark.js",
+    "components/marketing/pricing/WithComparisonTable.js"
+  ],
   "exclude": ["node_modules"]
 }
