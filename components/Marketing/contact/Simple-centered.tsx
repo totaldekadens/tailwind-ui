@@ -4,7 +4,7 @@ import {
   ComputerDesktopIcon,
 } from "@heroicons/react/24/outline";
 
-export default function SimpleCentered() {
+export default function SimpleCenteredContact() {
   return (
     <div className="isolate bg-white py-24 px-6 sm:py-32 lg:px-8">
       <div className="mx-auto max-w-2xl sm:text-center">

@@ -12,7 +12,7 @@
   }
   ```
 */
-export default function SplitWithImage() {
+export default function SplitWithImageContact() {
   return (
     <div className="relative bg-white">
       <div className="lg:absolute lg:inset-0 lg:left-1/2">

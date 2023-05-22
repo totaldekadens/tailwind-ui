@@ -56,6 +56,33 @@ import WithLargeImages from "@/components/marketing/team/With-large-images";
 import WithMediumImagesOnDark from "@/components/marketing/team/With-medium-images-on-dark";
 import WithSmallImages from "@/components/marketing/team/With-small-images";
 import WithVerticalImages from "@/components/marketing/team/With-vertical-images";
+import Centered from "@/components/marketing/contact/Centered";
+import SideBySideGrid from "@/components/marketing/contact/Side-by-side-grid";
+import SimpleFourColumn from "@/components/marketing/contact/Simple-four-column";
+import SplitWithPattern from "@/components/marketing/contact/Split-with-pattern";
+import SplitWithPatternOnDark from "@/components/marketing/contact/Split-with-pattern-on-dark";
+import WithTestimonialContact from "@/components/marketing/contact/With-testimonial";
+import SimpleCenteredContact from "@/components/marketing/contact/Simple-centered";
+import SplitWithImageContact from "@/components/marketing/contact/Split-with-image";
+import FourColumnSimpleDark from "@/components/marketing/footers/Four-column-simple-dark";
+import FourColumnSimple from "@/components/marketing/footers/Four-column-simple";
+import FourColumnWithCompany from "@/components/marketing/footers/Four-column-with-company";
+import FourColumnWithCompanyOnDark from "@/components/marketing/footers/Four-column-with-company-on.dark";
+import FourColumnWithNewsletter from "@/components/marketing/footers/Four-column-with-newsletter";
+import FourColumnWithNewsletterBelow from "@/components/marketing/footers/Four-column-with-newsletter-below";
+import FourColumnWithNewsletterBelowDark from "@/components/marketing/footers/Four-column-with-newsletter-below-dark";
+import SocialLinksOnly from "@/components/marketing/footers/Social-links-only";
+import SimpleCenteredFooter from "@/components/marketing/footers/Simple-centered";
+import FloatingAtBottom from "@/components/elements/banners/Floating-at-bottom";
+import LeftAligned from "@/components/elements/banners/Left-aligned";
+import OnBrand from "@/components/elements/banners/On-brand";
+import OnDark from "@/components/elements/banners/On-dark";
+import PrivacyNoticeCentered from "@/components/elements/banners/Privacy-notice-centered";
+import PrivacyNoticeFullWidth from "@/components/elements/banners/Privacy-notice-full-width";
+import PrivacyNoticeRightAligned from "@/components/elements/banners/Privacy-notice-right-aligned";
+import WithBackgroundGlow from "@/components/elements/banners/With-background-glow";
+import WithButton from "@/components/elements/banners/With-button";
+import WithLink from "@/components/elements/banners/With-link";
 export const componentList = [
   {
     heading: "Heros",
@@ -287,6 +314,141 @@ export const componentList = [
       {
         component: WithVerticalImages,
         title: "WithVerticalImages",
+      },
+    ],
+  },
+  {
+    heading: "Contact",
+    slug: "contact",
+    description1:
+      "Samtliga komponenter hittar du på /components/marketing/contact",
+    description2: "",
+    components: [
+      {
+        component: Centered,
+        title: "Centered",
+      },
+      {
+        component: SideBySideGrid,
+        title: "SideBySideGrid",
+      },
+      {
+        component: SimpleCenteredContact,
+        title: "SimpleCenteredContact",
+      },
+      {
+        component: SimpleFourColumn,
+        title: "SimpleFourColumn",
+      },
+      {
+        component: SplitWithImageContact,
+        title: "SplitWithImageContact",
+      },
+      {
+        component: SplitWithPattern,
+        title: "SplitWithPattern",
+      },
+      {
+        component: SplitWithPatternOnDark,
+        title: "SplitWithPatternOnDark",
+      },
+      {
+        component: WithTestimonialContact,
+        title: "WithTestimonialContact",
+      },
+    ],
+  },
+  {
+    heading: "Footer",
+    slug: "footer",
+    description1:
+      "Samtliga komponenter hittar du på /components/marketing/footers",
+    description2: "",
+    components: [
+      {
+        component: FourColumnSimpleDark,
+        title: "FourColumnSimpleDark",
+      },
+      {
+        component: FourColumnSimple,
+        title: "FourColumnSimple",
+      },
+      {
+        component: FourColumnWithCompany,
+        title: "FourColumnWithCompany",
+      },
+      {
+        component: FourColumnWithCompanyOnDark,
+        title: "FourColumnWithCompanyOnDark",
+      },
+      {
+        component: FourColumnWithNewsletter,
+        title: "FourColumnWithNewsletter",
+      },
+      {
+        component: FourColumnWithNewsletterBelow,
+        title: "FourColumnWithNewsletterBelow",
+      },
+      {
+        component: FourColumnWithNewsletterBelowDark,
+        title: "FourColumnWithNewsletterBelowDark",
+      },
+      {
+        component: SimpleCenteredFooter,
+        title: "SimpleCenteredFooter",
+      },
+      {
+        component: SocialLinksOnly,
+        title: "SocialLinksOnly",
+      },
+    ],
+  },
+  {
+    heading: "Banner",
+    slug: "banner",
+    description1:
+      "Samtliga komponenter hittar du på /components/elements/banners",
+    description2: "",
+    components: [
+      {
+        component: FloatingAtBottom,
+        title: "FloatingAtBottom",
+      },
+      {
+        component: LeftAligned,
+        title: "LeftAligned",
+      },
+      {
+        component: OnBrand,
+        title: "OnBrand",
+      },
+      {
+        component: OnDark,
+        title: "OnDark",
+      },
+      {
+        component: PrivacyNoticeCentered,
+        title: "PrivacyNoticeCentered",
+      },
+      {
+        component: PrivacyNoticeFullWidth,
+        title: "PrivacyNoticeFullWidth",
+      },
+      {
+        component: PrivacyNoticeRightAligned,
+        title: "PrivacyNoticeRightAligned",
+      },
+      {
+        component: WithBackgroundGlow,
+        title: "WithBackgroundGlow",
+      },
+      {
+        component: WithButton,
+        title: "WithButton",
+      },
+      {
+        component: WithLink,
+        title: "WithLink",
       },
     ],
   },

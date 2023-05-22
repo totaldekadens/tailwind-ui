@@ -12,7 +12,7 @@
   }
   ```
 */
-export default function WithTestimonial() {
+export default function WithTestimonialContact() {
   return (
     <div className="relative isolate bg-white py-24 px-6 sm:py-32 lg:px-8">
       <svg
