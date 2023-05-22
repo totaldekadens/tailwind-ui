@@ -104,7 +104,7 @@ import WithStackedFlyoutMenu from "@/components/elements/headers/With-stacked-fl
 export const componentList = [
   {
     heading: "Heros",
-    slug: "hero",
+    slug: "heros",
     description1:
       "Samtliga komponenter hittar du på /components/marketing/hero",
     description2:
@@ -132,7 +132,7 @@ export const componentList = [
   },
   {
     heading: "Features",
-    slug: "feature",
+    slug: "features",
     description1:
       "Samtliga komponenter hittar du på /components/marketing/feature",
     description2:
@@ -255,7 +255,7 @@ export const componentList = [
   },
   {
     heading: "Newsletter",
-    slug: "newsletter",
+    slug: "newsletters",
     description1:
       "Samtliga komponenter hittar du på /components/marketing/newsletter",
     description2: "",
@@ -292,7 +292,7 @@ export const componentList = [
   },
   {
     heading: "Team",
-    slug: "team",
+    slug: "teams",
     description1:
       "Samtliga komponenter hittar du på /components/marketing/team",
     description2: "",
@@ -378,7 +378,7 @@ export const componentList = [
   },
   {
     heading: "Footer",
-    slug: "footer",
+    slug: "footers",
     description1:
       "Samtliga komponenter hittar du på /components/marketing/footers",
     description2: "",
@@ -422,8 +422,8 @@ export const componentList = [
     ],
   },
   {
-    heading: "Banner",
-    slug: "banner",
+    heading: "Banners",
+    slug: "banners",
     description1:
       "Samtliga komponenter hittar du på /components/elements/banners",
     description2: "",
@@ -472,7 +472,7 @@ export const componentList = [
   },
   {
     heading: "Flyout Menu",
-    slug: "flyoutmenu",
+    slug: "flyout-menus",
     description1:
       "Samtliga komponenter hittar du på /components/elements/flyout-menus",
     description2: "",
@@ -504,8 +504,8 @@ export const componentList = [
     ],
   },
   {
-    heading: "Header",
-    slug: "header",
+    heading: "Headers",
+    slug: "headers",
     description1:
       "Samtliga komponenter hittar du på /components/elements/headers",
     description2: "",
