@@ -101,6 +101,70 @@ import WithLeftAlignedNav from "@/components/elements/headers/With-left-aligned-
 import WithMultipleFlyoutMenus from "@/components/elements/headers/With-multiple-flyout-menus";
 import WithRightAlignedNav from "@/components/elements/headers/With-right-aligned-nav";
 import WithStackedFlyoutMenu from "@/components/elements/headers/With-stacked-flyout-menu";
+import ModalCart from "@/components/ecommerce/carts/Modal-cart";
+import PopoverCart from "@/components/ecommerce/carts/Popover-cart";
+import SingleColumnCart from "@/components/ecommerce/carts/Single-column-cart";
+import SlideOverCart from "@/components/ecommerce/carts/Slide-over.cart";
+import TwoColumnWithQuantityDropdown from "@/components/ecommerce/carts/Two-column-with-quantity-dropdown";
+import WithExtendedSummary from "@/components/ecommerce/carts/With-extended-summary";
+import SidebarFilters from "@/components/ecommerce/category-filters/Sidebar-filters";
+import WithCenteredTextAndDropdownProductFilters from "@/components/ecommerce/category-filters/With-centered-text-and-dropdown-product-filters";
+import WithDropdownProductFilters from "@/components/ecommerce/category-filters/With-dropdown-product-filters";
+import WithExpandableProductFilterPanel from "@/components/ecommerce/category-filters/With-expandable-product-filter-panel";
+import WithInlineActionsAndExpandableSidebarFilters from "@/components/ecommerce/category-filters/With-inline-actions-and-expandable-sidebar-filters";
+import ThreeColumnCategory from "@/components/ecommerce/category-previews/Three-column-category";
+import ThreeColumnWithDescription from "@/components/ecommerce/category-previews/Three-column-with-description";
+import WithBackgroundImageAndDetailOverlay from "@/components/ecommerce/category-previews/With-background-image-and-detail-overlay";
+import WithImageBackground from "@/components/ecommerce/category-previews/With-image-background";
+import WithScrollingCards from "@/components/ecommerce/category-previews/With-scrolling-cards";
+import WithSplitImages from "@/components/ecommerce/category-previews/With-split-images";
+import MultiStepCheckOut from "@/components/ecommerce/checkout/Multi-step-checkout";
+import SingleStepWithOrderSummary from "@/components/ecommerce/checkout/Single-step-with-order-summary";
+import SplitWithOrderSummary from "@/components/ecommerce/checkout/Split-with-order-summary";
+import WithMobileOrderSummaryOverlay from "@/components/ecommerce/checkout/With-mobile-order-summary-overlay";
+import WithOrderSummarySidebar from "@/components/ecommerce/checkout/With-order-summary-sidebar";
+import WithAlternatingSections from "@/components/ecommerce/product-features/With-alternating-sections";
+import WithFadingImage from "@/components/ecommerce/product-features/With-fading-image";
+import WithHeaderImagesAndDescriptions from "@/components/ecommerce/product-features/With-header-images-and-descriptions";
+import WithImageGrid from "@/components/ecommerce/product-features/With-image-grid-feature";
+import WithImageGridFeature from "@/components/ecommerce/product-features/With-image-grid-feature";
+import WithSplitImageFeature from "@/components/ecommerce/product-features/With-split-image-feature";
+import WithSquareImages from "@/components/ecommerce/product-features/With-square-images";
+import WithTabsFeature from "@/components/ecommerce/product-features/With-tabs-feature";
+import WithTieredImagesFeature from "@/components/ecommerce/product-features/With-tiered-images-feature";
+import WithWideImages from "@/components/ecommerce/product-features/With-wide-images";
+import CardWithFullDetails from "@/components/ecommerce/product-lists/Card-with-full-details";
+import SimpleList from "@/components/ecommerce/product-lists/SimpleList";
+import WithBorderGrid from "@/components/ecommerce/product-lists/With-border-grid";
+import WithColorSwatchesAndHorizontalScroll from "@/components/ecommerce/product-lists/With-color-swatches-and-horizontal-scroll";
+import WithCTALink from "@/components/ecommerce/product-lists/With-CTA-link";
+import WithImageOverlayAndAddButton from "@/components/ecommerce/product-lists/With-image-overlay-and-add-button";
+import WithInlinePriceAndCTALink from "@/components/ecommerce/product-lists/With-inline-price-and-CTA-link";
+import WithInlinePrice from "@/components/ecommerce/product-lists/With-inline-price";
+import WithSupportingText from "@/components/ecommerce/product-lists/With-supporting-text";
+import WithTallImages from "@/components/ecommerce/product-lists/With-tall-images";
+import WithTallImagesAndCTALink from "@/components/ecommerce/product-lists/With-tall-images-and-CTA-link";
+import WithImageGalleryAndExpandableDetails from "@/components/ecommerce/product-overviews/With-image-gallery-and-expandable-details";
+import WithTabs from "@/components/ecommerce/product-overviews/With-tabs";
+import WithTieredImages from "@/components/ecommerce/product-overviews/With-tiered-images";
+import WithColorAndSizeSelector from "@/components/ecommerce/product-quickviews/With-color-and-size-selector";
+import WithColorSelectorAndDescription from "@/components/ecommerce/product-quickviews/With-color-selector-and-description";
+import WithColorSelectorSizeSelectorAndDetailsLink from "@/components/ecommerce/product-quickviews/With-color-selector-size-selector-and-details-link";
+import WithLargeSizeSelector from "@/components/ecommerce/product-quickviews/With-large-size-selector";
+import FullWidthWithBackgroundImageAndLargeContent from "@/components/ecommerce/promo-sections/Full-width-with-background-image-and-large-content";
+import FullWidthWithBackgroundImage from "@/components/ecommerce/promo-sections/Full-width-with-background-image";
+import FullWidthWithOverlappingImageTiles from "@/components/ecommerce/promo-sections/Full-width-with-overlapping-image-tiles";
+import WithBackgroundImage from "@/components/ecommerce/promo-sections/With-background-image";
+import WithImageTilesPromo from "@/components/ecommerce/promo-sections/With-image-tiles-promo";
+import WithOffersAndSplitImage from "@/components/ecommerce/promo-sections/With-offers-and-split-image";
+import WithFadingBackgroundImageAndTestimonials from "@/components/ecommerce/promo-sections/With-fading-background-image-and-testimonials";
+import WithOverlappingImageTiles from "@/components/ecommerce/promo-sections/With-overlapping-image-tiles";
+import WithCenteredLogoAndFeaturedCategories from "@/components/ecommerce/store-navigation/With-centered-logo-and-featured-categories";
+import WithDoubleColumnAndPersistentMobileNav from "@/components/ecommerce/store-navigation/With-double-column-and-persistent-mobile-nav";
+import WithFeaturedCategories from "@/components/ecommerce/store-navigation/With-featured-categories";
+import NavWithImageGrid from "@/components/ecommerce/store-navigation/With-image-grid";
+import WithSimpleMenuAndPromo from "@/components/ecommerce/store-navigation/With-simple-menu-and-promo";
+import SplitWithImageProduct from "@/components/ecommerce/product-overviews/Split-with-image-product";
 export const componentList = [
   {
     heading: "Heros",
@@ -557,6 +621,352 @@ export const componentList = [
       {
         component: WithStackedFlyoutMenu,
         title: "WithStackedFlyoutMenu",
+      },
+    ],
+  },
+  {
+    heading: "Carts",
+    slug: "carts",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/carts",
+    description2: "",
+    components: [
+      {
+        component: ModalCart,
+        title: "ModalCart",
+      },
+      {
+        component: PopoverCart,
+        title: "PopoverCart",
+      },
+      {
+        component: SingleColumnCart,
+        title: "SingleColumnCart",
+      },
+      {
+        component: SlideOverCart,
+        title: "SlideOverCart",
+      },
+      {
+        component: TwoColumnWithQuantityDropdown,
+        title: "TwoColumnWithQuantityDropdown",
+      },
+      {
+        component: WithExtendedSummary,
+        title: "WithExtendedSummary",
+      },
+    ],
+  },
+  {
+    heading: "Category Filters",
+    slug: "category-filters",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/category-filters",
+    description2: "",
+    components: [
+      {
+        component: SidebarFilters,
+        title: "SidebarFilters",
+      },
+      {
+        component: WithCenteredTextAndDropdownProductFilters,
+        title: "WithCenteredTextAndDropdownProductFilters",
+      },
+      {
+        component: WithDropdownProductFilters,
+        title: "WithDropdownProductFilters",
+      },
+      {
+        component: WithExpandableProductFilterPanel,
+        title: "WithExpandableProductFilterPanel",
+      },
+      {
+        component: WithInlineActionsAndExpandableSidebarFilters,
+        title: "WithInlineActionsAndExpandableSidebarFilters",
+      },
+    ],
+  },
+  {
+    heading: "Category Previews",
+    slug: "category-previews",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/category-previews",
+    description2: "",
+    components: [
+      {
+        component: ThreeColumnCategory,
+        title: "ThreeColumnCategory",
+      },
+      {
+        component: ThreeColumnWithDescription,
+        title: "ThreeColumnWithDescription",
+      },
+      {
+        component: WithBackgroundImageAndDetailOverlay,
+        title: "WithBackgroundImageAndDetailOverlay",
+      },
+      {
+        component: WithImageBackground,
+        title: "WithImageBackground",
+      },
+      {
+        component: WithScrollingCards,
+        title: "WithScrollingCards",
+      },
+      {
+        component: WithSplitImages,
+        title: "WithSplitImages",
+      },
+    ],
+  },
+  {
+    heading: "Checkout",
+    slug: "checkout",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/checkout",
+    description2: "",
+    components: [
+      {
+        component: MultiStepCheckOut,
+        title: "MultiStepCheckOut",
+      },
+      {
+        component: SingleStepWithOrderSummary,
+        title: "SingleStepWithOrderSummary",
+      },
+      {
+        component: SplitWithOrderSummary,
+        title: "SplitWithOrderSummary",
+      },
+      {
+        component: WithMobileOrderSummaryOverlay,
+        title: "WithMobileOrderSummaryOverlay",
+      },
+      {
+        component: WithOrderSummarySidebar,
+        title: "WithOrderSummarySidebar",
+      },
+    ],
+  },
+  {
+    heading: "Product Features",
+    slug: "product-features",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/product-features",
+    description2: "",
+    components: [
+      {
+        component: WithAlternatingSections,
+        title: "WithAlternatingSections",
+      },
+      {
+        component: WithFadingImage,
+        title: "WithFadingImage",
+      },
+      {
+        component: WithHeaderImagesAndDescriptions,
+        title: "WithHeaderImagesAndDescriptions",
+      },
+      {
+        component: WithImageGridFeature,
+        title: "WithImageGridFeature",
+      },
+      {
+        component: WithSplitImageFeature,
+        title: "WithSplitImageFeature",
+      },
+      {
+        component: WithSquareImages,
+        title: "WithSquareImages",
+      },
+      {
+        component: WithTabsFeature,
+        title: "WithTabsFeature",
+      },
+      {
+        component: WithTieredImagesFeature,
+        title: "WithTieredImagesFeature",
+      },
+      {
+        component: WithWideImages,
+        title: "WithWideImages",
+      },
+    ],
+  },
+  {
+    heading: "Product Lists",
+    slug: "product-lists",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/product-lists",
+    description2: "",
+    components: [
+      {
+        component: CardWithFullDetails,
+        title: "CardWithFullDetails",
+      },
+      {
+        component: SimpleList,
+        title: "SimpleList",
+      },
+      {
+        component: WithBorderGrid,
+        title: "WithBorderGrid",
+      },
+      {
+        component: WithColorSwatchesAndHorizontalScroll,
+        title: "WithColorSwatchesAndHorizontalScroll",
+      },
+      {
+        component: WithCTALink,
+        title: "WithCTALink",
+      },
+      {
+        component: WithImageOverlayAndAddButton,
+        title: "WithImageOverlayAndAddButton",
+      },
+      {
+        component: WithInlinePriceAndCTALink,
+        title: "WithInlinePriceAndCTALink",
+      },
+      {
+        component: WithInlinePrice,
+        title: "WithInlinePrice",
+      },
+      {
+        component: WithSupportingText,
+        title: "WithSupportingText",
+      },
+      {
+        component: WithTallImages,
+        title: "WithTallImages",
+      },
+      {
+        component: WithTallImagesAndCTALink,
+        title: "WithTallImagesAndCTALink",
+      },
+    ],
+  },
+  {
+    heading: "Product Overviews",
+    slug: "product-overviews",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/product-overviews",
+    description2: "",
+    components: [
+      {
+        component: SplitWithImageProduct,
+        title: "SplitWithImageProduct",
+      },
+      {
+        component: WithImageGalleryAndExpandableDetails,
+        title: "WithImageGalleryAndExpandableDetails",
+      },
+      {
+        component: WithImageGrid,
+        title: "WithImageGrid",
+      },
+      {
+        component: WithTabs,
+        title: "WithTabs",
+      },
+      {
+        component: WithTieredImages,
+        title: "WithTieredImages",
+      },
+    ],
+  },
+  {
+    heading: "Product QuickViews",
+    slug: "product-quickviews",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/product-quickviews",
+    description2: "",
+    components: [
+      {
+        component: WithColorAndSizeSelector,
+        title: "WithColorAndSizeSelector",
+      },
+      {
+        component: WithColorSelectorAndDescription,
+        title: "WithColorSelectorAndDescription",
+      },
+      {
+        component: WithColorSelectorSizeSelectorAndDetailsLink,
+        title: "WithColorSelectorSizeSelectorAndDetailsLink",
+      },
+      {
+        component: WithLargeSizeSelector,
+        title: "WithLargeSizeSelector",
+      },
+    ],
+  },
+  {
+    heading: "Promo Sections",
+    slug: "promo-sections",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/promo-sections",
+    description2: "",
+    components: [
+      {
+        component: FullWidthWithBackgroundImageAndLargeContent,
+        title: "FullWidthWithBackgroundImageAndLargeContent",
+      },
+      {
+        component: FullWidthWithBackgroundImage,
+        title: "FullWidthWithBackgroundImage",
+      },
+      {
+        component: FullWidthWithOverlappingImageTiles,
+        title: "FullWidthWithOverlappingImageTiles",
+      },
+      {
+        component: WithBackgroundImage,
+        title: "WithBackgroundImage",
+      },
+      {
+        component: WithImageTilesPromo,
+        title: "WithImageTilesPromo",
+      },
+      {
+        component: WithOffersAndSplitImage,
+        title: "WithOffersAndSplitImage",
+      },
+      {
+        component: WithFadingBackgroundImageAndTestimonials,
+        title: "WithFadingBackgroundImageAndTestimonials",
+      },
+      {
+        component: WithOverlappingImageTiles,
+        title: "WithOverlappingImageTiles",
+      },
+    ],
+  },
+  {
+    heading: "Store Navigation",
+    slug: "store-navigation",
+    description1:
+      "Samtliga komponenter hittar du på /components/ecommerce/store-navigation",
+    description2: "",
+    components: [
+      {
+        component: WithCenteredLogoAndFeaturedCategories,
+        title: "WithCenteredLogoAndFeaturedCategories",
+      },
+      {
+        component: WithDoubleColumnAndPersistentMobileNav,
+        title: "WithDoubleColumnAndPersistentMobileNav",
+      },
+      {
+        component: WithFeaturedCategories,
+        title: "WithFeaturedCategories",
+      },
+      {
+        component: NavWithImageGrid,
+        title: "NavWithImageGrid",
+      },
+      {
+        component: WithSimpleMenuAndPromo,
+        title: "WithSimpleMenuAndPromo",
       },
     ],
   },

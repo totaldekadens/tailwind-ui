@@ -19,69 +19,46 @@ import Link from "next/link";
 const marketing = [
   {
     name: "Heros",
-    description: "Get a better understanding of your traffic",
     href: "/heros",
-    icon: ChartPieIcon,
   },
   {
     name: "Features",
-    description: "Speak directly to your customers",
     href: "/features",
-    icon: CursorArrowRaysIcon,
   },
   {
     name: "Pricing",
-    description: "Your customers’ data will be safe and secure",
     href: "/pricing",
-    icon: FingerPrintIcon,
   },
   {
     name: "Newsletters",
-    description: "Connect with third-party tools",
     href: "/newsletters",
-    icon: SquaresPlusIcon,
   },
   {
     name: "Teams",
-    description: "Build strategic funnels that will convert",
     href: "/teams",
-    icon: ArrowPathIcon,
   },
   {
     name: "Contact",
-    description: "Build strategic funnels that will convert",
     href: "/contact",
-    icon: ArrowPathIcon,
   },
   {
     name: "Banners",
-    description: "Build strategic funnels that will convert",
     href: "/banners",
-    icon: ArrowPathIcon,
   },
   {
     name: "Flyout Menus",
-    description: "Build strategic funnels that will convert",
     href: "/flyout-menus",
-    icon: ArrowPathIcon,
   },
   {
     name: "Headers",
-    description: "Build strategic funnels that will convert",
     href: "/headers",
-    icon: ArrowPathIcon,
   },
   {
     name: "Footers",
-    description: "Build strategic funnels that will convert",
     href: "/footers",
-    icon: ArrowPathIcon,
   },
 ];
-/* const callsToAction = [
-  { name: "Watch demo", href: "#", icon: PlayCircleIcon },
-  { name: "Contact sales", href: "#", icon: PhoneIcon },
-]; */
+
 const company = [
   { name: "About us", href: "#" },
   { name: "Careers", href: "#" },
@@ -90,6 +67,18 @@ const company = [
   { name: "Blog", href: "#" },
 ];
 
+const ecommerce = [
+  { name: "Product Overviews", href: "/product-overviews" },
+  { name: "Product Lists", href: "/product-lists" },
+  { name: "Product Features", href: "/product-features" },
+  { name: "Product Quick Views", href: "/product-quickviews" },
+  { name: "Category Filters", href: "/category-filters" },
+  { name: "Category Previews", href: "/category-previews" },
+  { name: "Carts", href: "/carts" },
+  { name: "Checkouts", href: "/checkout" },
+  { name: "Promo Sections", href: "/promo-sections" },
+  { name: "Store Navigation", href: "/store-navigation" },
+];
 function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
 }
@@ -184,7 +173,7 @@ export default function Header() {
             >
               <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-white shadow-lg ring-1 ring-gray-900/5">
                 <div className="p-4">
-                  {marketing.map((item) => (
+                  {ecommerce.map((item) => (
                     <div
                       key={item.name}
                       className="group relative flex gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-gray-50"

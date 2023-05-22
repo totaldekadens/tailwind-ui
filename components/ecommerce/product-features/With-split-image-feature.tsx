@@ -35,7 +35,7 @@ const features = [
   },
 ];
 
-export default function WithSplitImage() {
+export default function WithSplitImageFeature() {
   return (
     <div className="bg-white">
       <section aria-labelledby="features-heading" className="relative">

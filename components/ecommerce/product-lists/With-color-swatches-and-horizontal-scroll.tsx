@@ -32,7 +32,7 @@ const products = [
   // More products...
 ];
 
-export default function WitColorSwatchesAndHorizontalScroll() {
+export default function WithColorSwatchesAndHorizontalScroll() {
   return (
     <div className="bg-white">
       <div className="py-16 sm:py-24 lg:mx-auto lg:max-w-7xl lg:px-8">

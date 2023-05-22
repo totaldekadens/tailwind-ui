@@ -46,7 +46,7 @@ function classNames(...classes: any) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function SplitWithImage() {
+export default function SplitWithImageProduct() {
   const [selectedSize, setSelectedSize] = useState(product.sizes[0]);
 
   return (
