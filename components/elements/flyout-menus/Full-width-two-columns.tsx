@@ -55,7 +55,7 @@ const recentPosts = [
 
 export default function FullWidthTwoColumns() {
   return (
-    <Popover className="relative isolate z-50 shadow">
+    <Popover className="relative isolate z-50 shadow flex justify-center">
       <div className="bg-white py-5">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <Popover.Button className="inline-flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">

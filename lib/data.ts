@@ -83,6 +83,24 @@ import PrivacyNoticeRightAligned from "@/components/elements/banners/Privacy-not
 import WithBackgroundGlow from "@/components/elements/banners/With-background-glow";
 import WithButton from "@/components/elements/banners/With-button";
 import WithLink from "@/components/elements/banners/With-link";
+import FullWidthTwoColumns from "@/components/elements/flyout-menus/Full-width-two-columns";
+import FullWidth from "@/components/elements/flyout-menus/Full-width";
+import SimpleWithDescriptions from "@/components/elements/flyout-menus/Simple-with-descriptions";
+import StackedWithFooterActions from "@/components/elements/flyout-menus/Stacked-with-footer-actions";
+import StackedWithFooterList from "@/components/elements/flyout-menus/Stacked-with-footer-list";
+import TwoColumn from "@/components/elements/flyout-menus/Two-column";
+import ConstrainedFullWidth from "@/components/elements/headers/Constraied-full-width";
+import ConstrainedBrand from "@/components/elements/headers/Constrained-brand";
+import ConstrainedDark from "@/components/elements/headers/Constrained-dark";
+import Constrained from "@/components/elements/headers/Constrained";
+import WithCallToAction from "@/components/elements/headers/With-call-to-action";
+import WithCenteredLogo from "@/components/elements/headers/With-centered-logo";
+import WithFullWidthFlyoutMenu from "@/components/elements/headers/With-full-width-flyout-menu";
+import WithIconsInMobileMenu from "@/components/elements/headers/With-icons-in-mobile-menu";
+import WithLeftAlignedNav from "@/components/elements/headers/With-left-aligned-nav";
+import WithMultipleFlyoutMenus from "@/components/elements/headers/With-multiple-flyout-menus";
+import WithRightAlignedNav from "@/components/elements/headers/With-right-aligned-nav";
+import WithStackedFlyoutMenu from "@/components/elements/headers/With-stacked-flyout-menu";
 export const componentList = [
   {
     heading: "Heros",
@@ -449,6 +467,96 @@ export const componentList = [
       {
         component: WithLink,
         title: "WithLink",
+      },
+    ],
+  },
+  {
+    heading: "Flyout Menu",
+    slug: "flyoutmenu",
+    description1:
+      "Samtliga komponenter hittar du på /components/elements/flyout-menus",
+    description2: "",
+    components: [
+      {
+        component: FullWidth,
+        title: "FullWidth",
+      },
+      {
+        component: SimpleWithDescriptions,
+        title: "SimpleWithDescriptions",
+      },
+      {
+        component: StackedWithFooterActions,
+        title: "StackedWithFooterActions",
+      },
+      {
+        component: StackedWithFooterList,
+        title: "StackedWithFooterList",
+      },
+      {
+        component: TwoColumn,
+        title: "TwoColumn",
+      },
+      {
+        component: FullWidthTwoColumns,
+        title: "FullWidthTwoColumns",
+      },
+    ],
+  },
+  {
+    heading: "Header",
+    slug: "header",
+    description1:
+      "Samtliga komponenter hittar du på /components/elements/headers",
+    description2: "",
+    components: [
+      {
+        component: ConstrainedFullWidth,
+        title: "ConstrainedFullWidth",
+      },
+      {
+        component: ConstrainedBrand,
+        title: "ConstrainedBrand",
+      },
+      {
+        component: ConstrainedDark,
+        title: "ConstrainedDark",
+      },
+      {
+        component: Constrained,
+        title: "Constrained",
+      },
+      {
+        component: WithCallToAction,
+        title: "WithCallToAction",
+      },
+      {
+        component: WithCenteredLogo,
+        title: "WithCenteredLogo",
+      },
+      {
+        component: WithFullWidthFlyoutMenu,
+        title: "WithFullWidthFlyoutMenu",
+      },
+      {
+        component: WithIconsInMobileMenu,
+        title: "WithIconsInMobileMenu",
+      },
+      {
+        component: WithLeftAlignedNav,
+        title: "WithLeftAlignedNav",
+      },
+      {
+        component: WithMultipleFlyoutMenus,
+        title: "WithMultipleFlyoutMenus",
+      },
+      {
+        component: WithRightAlignedNav,
+        title: "WithRightAlignedNav",
+      },
+      {
+        component: WithStackedFlyoutMenu,
+        title: "WithStackedFlyoutMenu",
       },
     ],
   },
