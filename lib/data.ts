@@ -40,6 +40,22 @@ import TwoTiersWithEmphasizedTier from "@/components/marketing/pricing/Two-tiers
 import TwoTiers from "@/components/marketing/pricing/Two-tiers";
 import WithComparisonTable from "@/components/marketing/pricing/WithComparisonTable";
 import WithComparisonTableOnDark from "@/components/marketing/pricing/With-comparison-table-on-dark";
+import CenteredCard from "@/components/marketing/newsletter/Centered-card";
+import SideBySideOnCard from "@/components/marketing/newsletter/Side-by-side-on-card";
+import SideBySideWithDetails from "@/components/marketing/newsletter/Side-by-side-with-details";
+import SimpleSideBySideOnBrand from "@/components/marketing/newsletter/Simple-side-by-side-on-brand";
+import SimpleSideBySideOnDark from "@/components/marketing/newsletter/Simple-side-by-side-on-dark";
+import SimpleSideBySide from "@/components/marketing/newsletter/Simple-side-by-side";
+import SimpleStacked from "@/components/marketing/newsletter/Simple-stacked";
+import DarkVersionWithLArgeImages from "@/components/marketing/team/Dark-version-with-large-images";
+import FullWidthWithVerticalImages from "@/components/marketing/team/Full-width-with-vertical-images";
+import GridWithLargeRoundImages from "@/components/marketing/team/Grid-with-large-round-images";
+import GridWithRoundImages from "@/components/marketing/team/Grid-with-round-images";
+import WithImageAndShortParagraph from "@/components/marketing/team/With-image-and-short-paragraph";
+import WithLargeImages from "@/components/marketing/team/With-large-images";
+import WithMediumImagesOnDark from "@/components/marketing/team/With-medium-images-on-dark";
+import WithSmallImages from "@/components/marketing/team/With-small-images";
+import WithVerticalImages from "@/components/marketing/team/With-vertical-images";
 export const componentList = [
   {
     heading: "Heros",
@@ -189,6 +205,88 @@ export const componentList = [
       {
         component: WithComparisonTableOnDark,
         title: "WithComparisonTableOnDark",
+      },
+    ],
+  },
+  {
+    heading: "Newsletter",
+    slug: "newsletter",
+    description1:
+      "Samtliga komponenter hittar du på /components/marketing/newsletter",
+    description2: "",
+    components: [
+      {
+        component: CenteredCard,
+        title: "CenteredCard",
+      },
+      {
+        component: SideBySideOnCard,
+        title: "SideBySideOnCard",
+      },
+      {
+        component: SideBySideWithDetails,
+        title: "SideBySideWithDetails",
+      },
+      {
+        component: SimpleSideBySideOnBrand,
+        title: "SimpleSideBySideOnBrand",
+      },
+      {
+        component: SimpleSideBySideOnDark,
+        title: "SimpleSideBySideOnDark",
+      },
+      {
+        component: SimpleSideBySide,
+        title: "SimpleSideBySide",
+      },
+      {
+        component: SimpleStacked,
+        title: "SimpleStacked",
+      },
+    ],
+  },
+  {
+    heading: "Team",
+    slug: "team",
+    description1:
+      "Samtliga komponenter hittar du på /components/marketing/team",
+    description2: "",
+    components: [
+      {
+        component: DarkVersionWithLArgeImages,
+        title: "DarkVersionWithLArgeImages",
+      },
+      {
+        component: FullWidthWithVerticalImages,
+        title: "FullWidthWithVerticalImages",
+      },
+      {
+        component: GridWithLargeRoundImages,
+        title: "GridWithLargeRoundImages",
+      },
+      {
+        component: GridWithRoundImages,
+        title: "GridWithRoundImages",
+      },
+      {
+        component: WithImageAndShortParagraph,
+        title: "WithImageAndShortParagraph",
+      },
+      {
+        component: WithLargeImages,
+        title: "WithLargeImages",
+      },
+      {
+        component: WithMediumImagesOnDark,
+        title: "WithMediumImagesOnDark",
+      },
+      {
+        component: WithSmallImages,
+        title: "WithSmallImages",
+      },
+      {
+        component: WithVerticalImages,
+        title: "WithVerticalImages",
       },
     ],
   },

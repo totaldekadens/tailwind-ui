@@ -8,6 +8,33 @@ const people = [
     twitterUrl: "#",
     linkedinUrl: "#",
   },
+  {
+    name: "Emma Dorsey",
+    role: "Senior Developer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Emma Dorsey",
+    role: "Senior Developer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
+  {
+    name: "Emma Dorsey",
+    role: "Senior Developer",
+    imageUrl:
+      "https://images.unsplash.com/photo-1505840717430-882ce147ef2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    bio: "Praesentium iure error aliquam voluptas ut libero. Commodi placeat sit iure nulla officiis. Ut ex sit repellat tempora. Qui est accusamus exercitationem natus ut voluptas. Officiis velit eos ducimus.",
+    twitterUrl: "#",
+    linkedinUrl: "#",
+  },
   // More people...
 ];
 
