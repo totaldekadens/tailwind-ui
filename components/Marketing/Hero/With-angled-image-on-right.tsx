@@ -15,7 +15,7 @@ export default function WithAngledImageOnRight() {
 
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
+      {/* <header className="absolute inset-x-0 top-0 z-50">
         <div className="mx-auto max-w-7xl">
           <div className="px-6 pt-6 lg:max-w-2xl lg:pl-8 lg:pr-0">
             <nav
@@ -103,7 +103,7 @@ export default function WithAngledImageOnRight() {
             </div>
           </Dialog.Panel>
         </Dialog>
-      </header>
+      </header> */}
 
       <div className="relative">
         <div className="mx-auto max-w-7xl">

@@ -15,7 +15,7 @@ export default function WithPhoneMockup() {
 
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
+      {/*   <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="flex items-center justify-between p-6 lg:px-8"
           aria-label="Global"
@@ -111,7 +111,7 @@ export default function WithPhoneMockup() {
             </div>
           </Dialog.Panel>
         </Dialog>
-      </header>
+      </header> */}
 
       <div className="relative isolate pt-14">
         <svg

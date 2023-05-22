@@ -14,7 +14,7 @@ export default function WithOffsetImage() {
 
   return (
     <div className="bg-white">
-      <header className="absolute inset-x-0 top-0 z-50">
+      {/* <header className="absolute inset-x-0 top-0 z-50">
         <nav
           className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
           aria-label="Global"
@@ -110,7 +110,7 @@ export default function WithOffsetImage() {
             </div>
           </Dialog.Panel>
         </Dialog>
-      </header>
+      </header> */}
       <div className="relative isolate overflow-hidden bg-gradient-to-b from-indigo-100/20 pt-14">
         <div
           className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"

@@ -132,7 +132,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Example() {
+export default function ThreeTiersWithFeatureComparison() {
   const [frequency, setFrequency] = useState(frequencies[0]);
 
   return (
