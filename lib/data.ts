@@ -1,78 +1,78 @@
-import CenteredTwoGrid from "@/components/marketing/feature/Centered-two-grid";
-import ContainedInPanel from "@/components/marketing/feature/Contained-in-panel";
-import OffsetTwoGrid from "@/components/marketing/feature/Offset-two-grid";
-import OffsetWithFeatureList from "@/components/marketing/feature/Offset-with-feature-list";
-import Simple from "@/components/marketing/feature/Simple";
-import SimpleThreeColumnWithLargeIcons from "@/components/marketing/feature/Simple-three-column-with-large-icons";
-import SimpleThreeColumnWithLargeIconsOnDark from "@/components/marketing/feature/Simple-three-column-with-large-icons-on-dark";
-import SimpleThreeColumWithSmallIconsOnDark from "@/components/marketing/feature/Simple-three-column-with-small-icons-on-dark";
-import SimpleTwoColumnWithSmallIconsOnDark from "@/components/marketing/feature/Simple-two-column-with-small-icons-on-dark";
-import WithProductScreenshotOnDark from "@/components/marketing/feature/With product screenshot on dark";
-import WithCodeExamplePanel from "@/components/marketing/feature/With-code-example-panel";
-import WithLargeScreenshot from "@/components/marketing/feature/With-large-screenshot";
-import WithLargeScreenshotOnDark from "@/components/marketing/feature/With-large-screenshot-on-dark";
-import WithProductScreenshot from "@/components/marketing/feature/With-product-screenshot";
-import WithProductScreenshotOnLeft from "@/components/marketing/feature/With-product-screenshot-on-left";
-import WithProductScreenshotPanel from "@/components/marketing/feature/With-product-screenshot-panel";
-import WithTestimonial from "@/components/marketing/feature/With-testimonial";
-import SimpleCentered from "@/components/marketing/hero/Simple-centered";
-import SimpleCenteredWithBackgroundImage from "@/components/marketing/hero/Simple-centered-with-background-image";
-import SplitWithCodeExample from "@/components/marketing/hero/Split-with-code-example";
-import SplitWithImage from "@/components/marketing/hero/Split-with-image";
-import SplitWithScreenshot from "@/components/marketing/hero/Split-with-screenshot";
-import SplitWithScreenshotOnDark from "@/components/marketing/hero/Split-with-screenshot-on-dark";
-import WithAngledImageOnRight from "@/components/marketing/hero/With-angled-image-on-right";
-import WithAppScreenshot from "@/components/marketing/hero/With-app-screenshot";
-import WithAppScreenshotOnDark from "@/components/marketing/hero/With-app-screenshot-on-dark";
-import WithImageTiles from "@/components/marketing/hero/With-image-tiles";
-import WithOffsetImage from "@/components/marketing/hero/With-offset-image";
-import WithPhoneMockup from "@/components/marketing/hero/With-phone-mockup";
-import FourTiersWithToggle from "@/components/marketing/pricing/Four-tiers-with-toggle";
-import SinglePriceWithDetails from "@/components/marketing/pricing/Single-price-with-details";
-import ThreeTiers from "@/components/marketing/pricing/Three-tiers";
-import ThreeTiersWithEmphasizedTier from "@/components/marketing/pricing/Three-tiers-with-emphasized-tier";
-import ThreeTiersWithFeatureComparison from "@/components/marketing/pricing/Three-tiers-with-feature-comparison";
-import ThreeTiersWithToggle from "@/components/marketing/pricing/Three-tiers-with-toggle";
-import ThreeTiersWithToggleOnDark from "@/components/marketing/pricing/Three-tiers-with-toggle-on-dark";
-import ThreeTiersWithDividers from "@/components/marketing/pricing/ThreeTiersWithDividers";
-import TwoTiersWithExtraTier from "@/components/marketing/pricing/Two-tiers-with-extra-tier";
-import TwoTiersWithEmphasizedTier from "@/components/marketing/pricing/Two-tiers-with-emphasized-tier";
-import TwoTiers from "@/components/marketing/pricing/Two-tiers";
-import WithComparisonTable from "@/components/marketing/pricing/WithComparisonTable";
-import WithComparisonTableOnDark from "@/components/marketing/pricing/With-comparison-table-on-dark";
-import CenteredCard from "@/components/marketing/newsletter/Centered-card";
-import SideBySideOnCard from "@/components/marketing/newsletter/Side-by-side-on-card";
-import SideBySideWithDetails from "@/components/marketing/newsletter/Side-by-side-with-details";
-import SimpleSideBySideOnBrand from "@/components/marketing/newsletter/Simple-side-by-side-on-brand";
-import SimpleSideBySideOnDark from "@/components/marketing/newsletter/Simple-side-by-side-on-dark";
-import SimpleSideBySide from "@/components/marketing/newsletter/Simple-side-by-side";
-import SimpleStacked from "@/components/marketing/newsletter/Simple-stacked";
-import DarkVersionWithLArgeImages from "@/components/marketing/team/Dark-version-with-large-images";
-import FullWidthWithVerticalImages from "@/components/marketing/team/Full-width-with-vertical-images";
-import GridWithLargeRoundImages from "@/components/marketing/team/Grid-with-large-round-images";
-import GridWithRoundImages from "@/components/marketing/team/Grid-with-round-images";
-import WithImageAndShortParagraph from "@/components/marketing/team/With-image-and-short-paragraph";
-import WithLargeImages from "@/components/marketing/team/With-large-images";
-import WithMediumImagesOnDark from "@/components/marketing/team/With-medium-images-on-dark";
-import WithSmallImages from "@/components/marketing/team/With-small-images";
-import WithVerticalImages from "@/components/marketing/team/With-vertical-images";
-import Centered from "@/components/marketing/contact/Centered";
-import SideBySideGrid from "@/components/marketing/contact/Side-by-side-grid";
-import SimpleFourColumn from "@/components/marketing/contact/Simple-four-column";
-import SplitWithPattern from "@/components/marketing/contact/Split-with-pattern";
-import SplitWithPatternOnDark from "@/components/marketing/contact/Split-with-pattern-on-dark";
-import WithTestimonialContact from "@/components/marketing/contact/With-testimonial";
-import SimpleCenteredContact from "@/components/marketing/contact/Simple-centered";
-import SplitWithImageContact from "@/components/marketing/contact/Split-with-image";
-import FourColumnSimpleDark from "@/components/marketing/footers/Four-column-simple-dark";
-import FourColumnSimple from "@/components/marketing/footers/Four-column-simple";
-import FourColumnWithCompany from "@/components/marketing/footers/Four-column-with-company";
-import FourColumnWithCompanyOnDark from "@/components/marketing/footers/Four-column-with-company-on.dark";
-import FourColumnWithNewsletter from "@/components/marketing/footers/Four-column-with-newsletter";
-import FourColumnWithNewsletterBelow from "@/components/marketing/footers/Four-column-with-newsletter-below";
-import FourColumnWithNewsletterBelowDark from "@/components/marketing/footers/Four-column-with-newsletter-below-dark";
-import SocialLinksOnly from "@/components/marketing/footers/Social-links-only";
-import SimpleCenteredFooter from "@/components/marketing/footers/Simple-centered";
+import CenteredTwoGrid from "@/components/general/feature/Centered-two-grid";
+import ContainedInPanel from "@/components/general/feature/Contained-in-panel";
+import OffsetTwoGrid from "@/components/general/feature/Offset-two-grid";
+import OffsetWithFeatureList from "@/components/general/feature/Offset-with-feature-list";
+import Simple from "@/components/general/feature/Simple";
+import SimpleThreeColumnWithLargeIcons from "@/components/general/feature/Simple-three-column-with-large-icons";
+import SimpleThreeColumnWithLargeIconsOnDark from "@/components/general/feature/Simple-three-column-with-large-icons-on-dark";
+import SimpleThreeColumWithSmallIconsOnDark from "@/components/general/feature/Simple-three-column-with-small-icons-on-dark";
+import SimpleTwoColumnWithSmallIconsOnDark from "@/components/general/feature/Simple-two-column-with-small-icons-on-dark";
+import WithProductScreenshotOnDark from "@/components/general/feature/With product screenshot on dark";
+import WithCodeExamplePanel from "@/components/general/feature/With-code-example-panel";
+import WithLargeScreenshot from "@/components/general/feature/With-large-screenshot";
+import WithLargeScreenshotOnDark from "@/components/general/feature/With-large-screenshot-on-dark";
+import WithProductScreenshot from "@/components/general/feature/With-product-screenshot";
+import WithProductScreenshotOnLeft from "@/components/general/feature/With-product-screenshot-on-left";
+import WithProductScreenshotPanel from "@/components/general/feature/With-product-screenshot-panel";
+import WithTestimonial from "@/components/general/feature/With-testimonial";
+import SimpleCentered from "@/components/general/heros/Simple-centered";
+import SimpleCenteredWithBackgroundImage from "@/components/general/heros/Simple-centered-with-background-image";
+import SplitWithCodeExample from "@/components/general/heros/Split-with-code-example";
+import SplitWithImage from "@/components/general/heros/Split-with-image";
+import SplitWithScreenshot from "@/components/general/heros/Split-with-screenshot";
+import SplitWithScreenshotOnDark from "@/components/general/heros/Split-with-screenshot-on-dark";
+import WithAngledImageOnRight from "@/components/general/heros/With-angled-image-on-right";
+import WithAppScreenshot from "@/components/general/heros/With-app-screenshot";
+import WithAppScreenshotOnDark from "@/components/general/heros/With-app-screenshot-on-dark";
+import WithImageTiles from "@/components/general/heros/With-image-tiles";
+import WithOffsetImage from "@/components/general/heros/With-offset-image";
+import WithPhoneMockup from "@/components/general/heros/With-phone-mockup";
+import FourTiersWithToggle from "@/components/general/pricing/Four-tiers-with-toggle";
+import SinglePriceWithDetails from "@/components/general/pricing/Single-price-with-details";
+import ThreeTiers from "@/components/general/pricing/Three-tiers";
+import ThreeTiersWithEmphasizedTier from "@/components/general/pricing/Three-tiers-with-emphasized-tier";
+import ThreeTiersWithFeatureComparison from "@/components/general/pricing/Three-tiers-with-feature-comparison";
+import ThreeTiersWithToggle from "@/components/general/pricing/Three-tiers-with-toggle";
+import ThreeTiersWithToggleOnDark from "@/components/general/pricing/Three-tiers-with-toggle-on-dark";
+import ThreeTiersWithDividers from "@/components/general/pricing/ThreeTiersWithDividers";
+import TwoTiersWithExtraTier from "@/components/general/pricing/Two-tiers-with-extra-tier";
+import TwoTiersWithEmphasizedTier from "@/components/general/pricing/Two-tiers-with-emphasized-tier";
+import TwoTiers from "@/components/general/pricing/Two-tiers";
+import WithComparisonTable from "@/components/general/pricing/WithComparisonTable";
+import WithComparisonTableOnDark from "@/components/general/pricing/With-comparison-table-on-dark";
+import CenteredCard from "@/components/general/newsletter/Centered-card";
+import SideBySideOnCard from "@/components/general/newsletter/Side-by-side-on-card";
+import SideBySideWithDetails from "@/components/general/newsletter/Side-by-side-with-details";
+import SimpleSideBySideOnBrand from "@/components/general/newsletter/Simple-side-by-side-on-brand";
+import SimpleSideBySideOnDark from "@/components/general/newsletter/Simple-side-by-side-on-dark";
+import SimpleSideBySide from "@/components/general/newsletter/Simple-side-by-side";
+import SimpleStacked from "@/components/general/newsletter/Simple-stacked";
+import DarkVersionWithLArgeImages from "@/components/general/team/Dark-version-with-large-images";
+import FullWidthWithVerticalImages from "@/components/general/team/Full-width-with-vertical-images";
+import GridWithLargeRoundImages from "@/components/general/team/Grid-with-large-round-images";
+import GridWithRoundImages from "@/components/general/team/Grid-with-round-images";
+import WithImageAndShortParagraph from "@/components/general/team/With-image-and-short-paragraph";
+import WithLargeImages from "@/components/general/team/With-large-images";
+import WithMediumImagesOnDark from "@/components/general/team/With-medium-images-on-dark";
+import WithSmallImages from "@/components/general/team/With-small-images";
+import WithVerticalImages from "@/components/general/team/With-vertical-images";
+import Centered from "@/components/general/contact/Centered";
+import SideBySideGrid from "@/components/general/contact/Side-by-side-grid";
+import SimpleFourColumn from "@/components/general/contact/Simple-four-column";
+import SplitWithPattern from "@/components/general/contact/Split-with-pattern";
+import SplitWithPatternOnDark from "@/components/general/contact/Split-with-pattern-on-dark";
+import WithTestimonialContact from "@/components/general/contact/With-testimonial";
+import SimpleCenteredContact from "@/components/general/contact/Simple-centered";
+import SplitWithImageContact from "@/components/general/contact/Split-with-image";
+import FourColumnSimpleDark from "@/components/general/footers/Four-column-simple-dark";
+import FourColumnSimple from "@/components/general/footers/Four-column-simple";
+import FourColumnWithCompany from "@/components/general/footers/Four-column-with-company";
+import FourColumnWithCompanyOnDark from "@/components/general/footers/Four-column-with-company-on.dark";
+import FourColumnWithNewsletter from "@/components/general/footers/Four-column-with-newsletter";
+import FourColumnWithNewsletterBelow from "@/components/general/footers/Four-column-with-newsletter-below";
+import FourColumnWithNewsletterBelowDark from "@/components/general/footers/Four-column-with-newsletter-below-dark";
+import SocialLinksOnly from "@/components/general/footers/Social-links-only";
+import SimpleCenteredFooter from "@/components/general/footers/Simple-centered";
 import FloatingAtBottom from "@/components/elements/banners/Floating-at-bottom";
 import LeftAligned from "@/components/elements/banners/Left-aligned";
 import OnBrand from "@/components/elements/banners/On-brand";
@@ -169,8 +169,7 @@ export const componentList = [
   {
     heading: "Heros",
     slug: "heros",
-    description1:
-      "Samtliga komponenter hittar du på /components/marketing/hero",
+    description1: "Samtliga komponenter hittar du på /components/general/hero",
     description2:
       "Vissa av komponenterna har även headers med i koden. De är dock för tillfället utkommenterade",
     components: [
@@ -198,7 +197,7 @@ export const componentList = [
     heading: "Features",
     slug: "features",
     description1:
-      "Samtliga komponenter hittar du på /components/marketing/feature",
+      "Samtliga komponenter hittar du på /components/general/feature",
     description2:
       "Vissa av komponenterna har även headers med i koden. De är dock för tillfället utkommenterade",
     components: [
@@ -260,7 +259,7 @@ export const componentList = [
     heading: "Pricing",
     slug: "pricing",
     description1:
-      "Samtliga komponenter hittar du på /components/marketing/pricing",
+      "Samtliga komponenter hittar du på /components/general/pricing",
     description2: "",
     components: [
       {
@@ -321,7 +320,7 @@ export const componentList = [
     heading: "Newsletter",
     slug: "newsletters",
     description1:
-      "Samtliga komponenter hittar du på /components/marketing/newsletter",
+      "Samtliga komponenter hittar du på /components/general/newsletter",
     description2: "",
     components: [
       {
@@ -357,8 +356,7 @@ export const componentList = [
   {
     heading: "Team",
     slug: "teams",
-    description1:
-      "Samtliga komponenter hittar du på /components/marketing/team",
+    description1: "Samtliga komponenter hittar du på /components/general/team",
     description2: "",
     components: [
       {
@@ -403,7 +401,7 @@ export const componentList = [
     heading: "Contact",
     slug: "contact",
     description1:
-      "Samtliga komponenter hittar du på /components/marketing/contact",
+      "Samtliga komponenter hittar du på /components/general/contact",
     description2: "",
     components: [
       {
@@ -444,7 +442,7 @@ export const componentList = [
     heading: "Footer",
     slug: "footers",
     description1:
-      "Samtliga komponenter hittar du på /components/marketing/footers",
+      "Samtliga komponenter hittar du på /components/general/footers",
     description2: "",
     components: [
       {

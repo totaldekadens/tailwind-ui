@@ -22,11 +22,11 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "components/marketing/pricing/Three-tiers-with-toggle.js",
-    "components/marketing/pricing/Three-tiers-with-toggle-on-dark.js",
-    "components/marketing/pricing/Three-tiers-with-emphasized-tier.js",
-    "components/marketing/pricing/With-comparison-table-on-dark.js",
-    "components/marketing/pricing/WithComparisonTable.js"
+    "components/general/pricing/Three-tiers-with-toggle.js",
+    "components/general/pricing/Three-tiers-with-toggle-on-dark.js",
+    "components/general/pricing/Three-tiers-with-emphasized-tier.js",
+    "components/general/pricing/With-comparison-table-on-dark.js",
+    "components/general/pricing/WithComparisonTable.js"
   ],
   "exclude": ["node_modules"]
 }

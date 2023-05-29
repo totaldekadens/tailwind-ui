@@ -2,7 +2,7 @@ import Head from "next/head";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import { CopyBlock, dracula } from "react-code-blocks";
-import Centered from "@/components/marketing/contact/Centered";
+import Centered from "@/components/general/contact/Centered";
 import { useEffect, useState } from "react";
 import Layout from "@/components/common/Layout";
 import { componentList as list } from "@/lib/data";
